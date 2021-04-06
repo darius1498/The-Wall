@@ -1,0 +1,100 @@
+body{
+	font-family: arial;
+	
+}
+div.header{
+	display: block;
+	padding: 10px 20px 10px 40px;
+	border: 1px solid black;
+}
+	div.header h2{
+		display: inline-block;
+		width: 70%;
+		margin: 5px 0px;
+	}
+	div.header div{
+		display: inline-block;
+		min-width: 25%;
+	}
+		div.header div p{
+			display: inline-block;
+			min-width: 45%;
+			margin: 5px 0px;
+		}
+		div.header div a{
+			display: inline-block;
+			min-width: 45%;
+			margin: 5px 0px;
+		}
+div.message{
+	display: block;
+	padding: 25px 15%;
+}
+	div.message form{
+		margin: auto;
+	}
+		div.message form h4{
+			margin: 20px 0px 5px;
+			display: block;
+		}
+		div.message form textarea{
+			display: block;
+			width: 100%;
+		}
+		div.message span{
+			display: block;
+			text-align: right;
+		}
+		div.message span input[type='submit']{
+			text-align: right;
+			margin: 5px 0px;
+			display: inline-block;
+			border: none;
+			background-color: blue;
+			color: white;
+			padding: 5px 20px;
+		}
+div.comment{
+	display: block;
+	padding: 5px 15%;
+	text-align: justify;
+}
+	div.comment h4{
+		display: block;
+		margin: 5px 0px;
+	}
+	div.comment p{
+		display: block;
+		margin: 10px 0px 10px 30px;
+	}
+	div.comment form{
+		margin: auto;
+		margin: 10px 0px 10px 50px;
+	}
+	div.comment form h4{
+			margin: 20px 0px 5px;
+			display: block;
+			font-size: 14px;
+		}
+		div.comment form p{
+			display: block;
+			margin: 10px 0px;
+			font-size: 14px;
+		}
+		div.comment form textarea{
+			display: block;
+			width: 100%;
+		}
+		div.comment span{
+			display: block;
+			text-align: right;
+		}
+		div.comment span input[type='submit']{
+			text-align: right;
+			margin: 5px 0px;
+			display: inline-block;
+			border: none;
+			background-color: green;
+			color: white;
+			padding: 5px 20px;
+		}
